@@ -1,70 +1,89 @@
 # Getting Started with Create React App
+# My notes
+Class Component Vs Function Component
+Class Component က load time ကြာတယ်
+Functional Component က load time မြန်တယ်
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+========================
 
-## Available Scripts
+After React v16
+Functional Component
+=> useState
+=> userEffect
+=> useContext
+Additional Hooks
+=> useReducer
+=> useCallback
+=> useMemo
+=> useRef
+=> useImperativeHandle
+=> useLayoutEffect
+=> useDebugValue
 
-In the project directory, you can run:
+=========================
 
-### `npm start`
+Not supported after v16
+=> ComponentDidError
+=> getSnapshoBeforeUpdate
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+=========================
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npx create-react-app@latest {project name}
+npm i bootstrap
+npm i react-router-dom
 
-### `npm test`
+=======Shortcut=========
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+imrc shortcut for => import React, { Component } from 'react';
+cc shortcut for => class component
 
-### `npm run build`
+imr shortcut for => import React from 'react';
+sfc shortcut for => function component
+rafce shortcut for => function component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+imr, sfc = rafce
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+=============================================
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+class component မှာ this ကိုသုံးပေးရတယ်
+this.props
+this.state
 
-### `npm run eject`
+for ES6
+constructor(){
+	super()
+	this.state = {
+		message: 'Welcome'
+	}
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ES6 မှာ this ကို ဖြေရှင်းချင်ရင် () => inline function ရေးပေးရတယ် အဲလိုမှမဟုတ်ရင် constructor မှာ သွား bind ပေးရတယ်
+ဥပမာ this.changeMessage = this.changeMessage.bind(this)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+===========================
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ES7
+state = {
+        	message: 'Thank for Message'
+    	}
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ES7 မှာ this ကို ဖြေရှင်းချင်ရင် changeMessage = () => {
+	this.setState({
+		message: 'Welcome'
+	})
+}
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+====================================
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+function component မှာ
+props
+useState Hook
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

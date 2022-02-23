@@ -39,7 +39,7 @@ ComponentDidError
 
 getSnapshoBeforeUpdate
 
-#Command
+# Command
 
 npx create-react-app@latest {project name}
 
@@ -49,12 +49,12 @@ npm i react-router-dom
 
 npm i axios
 
-#Shortcut
+# Shortcut
 
 rafce shortcut for => function component
 imr, sfc = rafce
 
-#Snippet	Renders
+# Snippet	Renders
 
 imr    -  Import React
 

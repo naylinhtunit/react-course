@@ -5,6 +5,7 @@ import ClassWithSet from "../common/ClassWithSet";
 import Title from "../common/Title";
 import ClassWithBinding from "../common/ClassWithBinding";
 import ClassWithCondition from "../common/ClassWithCondition";
+import FuncList from "../common/FuncList";
 // import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Link to="/about" className="btn btn-primary btn-lg mx-2">About</Link> */}
         <Title title="Home" />
         <Func />
+        <FuncList />
         <ClassComponentCourse />
         <ClassWithSet />
         <ClassWithBinding />

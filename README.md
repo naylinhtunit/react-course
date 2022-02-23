@@ -8,23 +8,36 @@ Function Component က load time မြန်တယ်
 
 After React v16
 Function Component
-# useState
-# userEffect
-# useContext
+
+useState
+
+userEffect
+
+useContext
+
 Additional Hooks
-# useReducer
-# useCallback
-# useMemo
-# useRef
-# useImperativeHandle
-# useLayoutEffect
-# useDebugValue
+
+useReducer
+
+useCallback
+
+useMemo
+
+useRef
+
+useImperativeHandle
+
+useLayoutEffect
+
+useDebugValue
 
 =========================
 
 Not supported after v16
-# ComponentDidError
-# getSnapshoBeforeUpdate
+
+ComponentDidError
+
+getSnapshoBeforeUpdate
 
 =========================
 
@@ -32,7 +45,8 @@ npx create-react-app@latest {project name}
 npm i bootstrap
 npm i react-router-dom
 
-=======Shortcut=========
+#Shortcut
+
 rafce shortcut for => function component
 imr, sfc = rafce
 

@@ -39,11 +39,14 @@ ComponentDidError
 
 getSnapshoBeforeUpdate
 
-=========================
+#Command
 
 npx create-react-app@latest {project name}
+
 npm i bootstrap
+
 npm i react-router-dom
+
 npm i axios
 
 #Shortcut

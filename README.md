@@ -183,10 +183,10 @@ function component မှာ
 props
 useState Hook
 
+===================================
 
-
-
-
+# jsonplaceholder
+url => https://jsonplaceholder.typicode.com/
 
 
 

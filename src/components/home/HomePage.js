@@ -7,6 +7,7 @@ import ClassWithBinding from "../common/ClassWithBinding";
 import ClassWithCondition from "../common/ClassWithCondition";
 import ClassRequestHttp from "../common/ClassRequestHttp";
 import FuncList from "../common/FuncList";
+import ClassPostMethod from "../common/ClassPostMethod";
 // import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -23,6 +24,7 @@ const HomePage = () => {
         <ClassWithBinding />
         <ClassWithCondition />
         <ClassRequestHttp />
+        <ClassPostMethod />
     </div>
   )
 }

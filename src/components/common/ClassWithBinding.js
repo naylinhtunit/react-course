@@ -24,6 +24,7 @@ class ClassWithBinding extends Component {
             <div>
                 <h3>Class Component</h3>
                 <p>{ this.state.message }</p>
+                {/* inline style */}
                 {/* <button className='btn btn-primary btn-sm' onClick={() => this.handleChange}>Click</button> */}
                 <button className='btn btn-primary btn-sm' onClick={this.handleChange}>Click</button>
             </div>

@@ -9,6 +9,8 @@ import ClassRequestHttp from "../common/ClassRequestHttp";
 import FuncList from "../common/FuncList";
 import ClassPostMethod from "../common/ClassPostMethod";
 import ClassHandlingForm from "../common/ClassHandlingForm";
+import FuncInlineStyle from "../common/FuncInlineStyle";
+import FuncStyleSheet from "../common/FuncStyleSheet";
 // import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -20,6 +22,8 @@ const HomePage = () => {
         <Title title="Home" />
         <Func />
         <FuncList />
+        <FuncInlineStyle />
+        <FuncStyleSheet />
         <ClassComponentCourse />
         <ClassWithSet />
         <ClassWithBinding />

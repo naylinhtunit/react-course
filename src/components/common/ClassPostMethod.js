@@ -21,7 +21,7 @@ class ClassPostMethod extends Component {
         
         console.log(this.state);
         
-        // for not refresh
+        // for page not refresh
         e.preventDefault();
         
         axios.post('https://jsonplaceholder.typicode.com/posts', this.state)

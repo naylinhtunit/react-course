@@ -8,6 +8,7 @@ import ClassWithCondition from "../common/ClassWithCondition";
 import ClassRequestHttp from "../common/ClassRequestHttp";
 import FuncList from "../common/FuncList";
 import ClassPostMethod from "../common/ClassPostMethod";
+import ClassHandlingForm from "../common/ClassHandlingForm";
 // import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -25,6 +26,7 @@ const HomePage = () => {
         <ClassWithCondition />
         <ClassRequestHttp />
         <ClassPostMethod />
+        <ClassHandlingForm />
     </div>
   )
 }
